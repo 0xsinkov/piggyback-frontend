@@ -1,0 +1,5 @@
+﻿pnpm-lock.yaml
+/azure-pipelines
+/node_modules
+/.husky
+/.cursor

@@ -1,0 +1,66 @@
+@import 'tailwindcss';
+@plugin "tailwindcss-animate";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-background: #ffffff;
+  --color-foreground: #0f172a;
+
+  --color-pink-primary: #ff7b93;
+  --color-pink-secondary: #f7c1ca;
+
+  --color-purple-light: #c4c1ff;
+  --color-purple-dark: #6c63ff;
+
+  --color-mint-light: #99e9dc;
+
+  --color-neutral: #cccccc;
+  --color-neutral-secondary: #aaaaaa;
+  --color-neutral-dark: #666666;
+
+  --color-success-dark: #027a48;
+  --color-success-light: #ecfdf3;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+  }
+}
+
+@utility text-balance {
+  text-wrap: balance;
+}
+
+@utility no-scrollbar {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@layer utilities {
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #b3b7bc;
+    border-radius: 20px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a6abae;
+  }
+}
