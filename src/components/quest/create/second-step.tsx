@@ -74,7 +74,7 @@ export function CreateQuestFormSecondStep({
     <CreateQuestStepCard
       currentStep={2}
       title="Let's continue with entries settings"
-      description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing"
+      description="Set up your quest's entry requirements"
       onNextClick={onNextClickWrapper}
       onBackClick={onBackClick}
     >

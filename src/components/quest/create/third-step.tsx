@@ -23,7 +23,7 @@ export function CreateQuestFormThirdStep({
     <CreateQuestStepCard
       currentStep={3}
       title="Let's Preview"
-      description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing"
+      description="Unleash it and let real users drive real engagement!"
       onBackClick={onBackClick}
       submit={
         <Button disabled={disabled || !publicKey} type="submit">

@@ -53,7 +53,7 @@ export function CreateQuestFormFirstStep({
     <CreateQuestStepCard
       currentStep={1}
       title="Let’s start with basic info"
-      description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing"
+      description="Turn your post into a growth engine"
       onNextClick={onNextClickWrapper}
     >
       <div className="flex flex-col gap-6">
