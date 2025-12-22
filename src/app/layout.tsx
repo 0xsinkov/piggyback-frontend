@@ -3,7 +3,6 @@ import { type JSX, type ReactNode } from 'react';
 import { Roboto } from 'next/font/google';
 import { Providers } from '@src/components/providers/providers';
 import { Header } from '@root/src/components/layout/header/header';
-import { Footer } from '@src/components/layout/footer';
 import './globals.css';
 
 export const metadata: Metadata = {
