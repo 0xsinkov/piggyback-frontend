@@ -5,7 +5,10 @@
 
 @theme {
   --color-background: #ffffff;
-  --color-foreground: #0f172a;
+  --color-foreground: #1a202c;
+
+  --color-lime-primary: #bfff0b;
+  --color-lime-light: #d4ff5c;
 
   --color-pink-primary: #ff7b93;
   --color-pink-secondary: #f7c1ca;
@@ -18,6 +21,7 @@
   --color-neutral: #cccccc;
   --color-neutral-secondary: #aaaaaa;
   --color-neutral-dark: #666666;
+  --color-neutral-border: #e2e8f0;
 
   --color-success-dark: #027a48;
   --color-success-light: #ecfdf3;

@@ -70,7 +70,7 @@ function Calendar({
           defaultClassNames.dropdowns,
         ),
         dropdown_root: cn(
-          'shadow-[2px_2px_0px_0px_#ff7b93] relative rounded border',
+          'relative rounded-lg border-2 border-black shadow-md',
           defaultClassNames.dropdown_root,
         ),
         dropdown: cn(

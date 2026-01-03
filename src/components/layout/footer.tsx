@@ -5,10 +5,10 @@ import { PUBLIC_PAGES_URLS } from '@root/src/constants/routes.constants';
 
 export function Footer(): JSX.Element {
   return (
-    <footer className="bg-background mx-auto mt-auto w-full px-4 md:px-16">
-      <div className="flex items-center justify-between py-8">
+    <footer className="bg-purple-light mx-auto mt-auto w-full px-4 md:px-16">
+      <div className="flex items-center justify-between py-4">
         <Link href={PUBLIC_PAGES_URLS.HOME}>
-          <Image alt="logo" src="/shared/logo.svg" width={100} height={40} />
+          <Image alt="logo" src="/shared/logo.svg" width={80} height={32} />
         </Link>
         <p className="text-sm">&copy; 2025 Relume. All rights reserved.</p>
       </div>

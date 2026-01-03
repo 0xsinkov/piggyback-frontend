@@ -32,10 +32,7 @@ export function CreateQuestStepCard({
           <p>{description}</p>
         </div>
         {children}
-        <div className="flex items-end justify-between">
-          <p className="text-neutral-secondary text-sm">
-            Step {currentStep} short description here
-          </p>
+        <div className="flex items-end justify-end">
           <div className="flex gap-4">
             <Button
               disabled={disabled}

@@ -5,8 +5,10 @@ import { AccountSettingSkeleton } from '@root/src/components/profile/settings/sk
 function Page(): JSX.Element {
   return (
     <div className="flex flex-col gap-12">
-      <h1 className="text-[56px]/17 font-bold text-black">
-        <span className="bg-pink-primary text-background">Account</span>{' '}
+      <h1 className="text-5xl font-bold text-black md:text-6xl">
+        <span className="bg-pink-primary text-background rounded-lg px-4 py-1">
+          Account
+        </span>{' '}
         Settings
       </h1>
       <Suspense fallback={<AccountSettingSkeleton />}>

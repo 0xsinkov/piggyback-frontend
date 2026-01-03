@@ -14,6 +14,8 @@ export function setAccessToken(token: string): void {
     return;
   }
   localStorage.setItem(ACCESS_TOKEN_KEY, token);
+  // Dispatch custom event to notify components
+  window.dispatchEvent(new Event('auth-change'));
 }
 
 export function removeAccessToken(): void {
@@ -21,4 +23,6 @@ export function removeAccessToken(): void {
     return;
   }
   localStorage.removeItem(ACCESS_TOKEN_KEY);
+  // Dispatch custom event to notify components
+  window.dispatchEvent(new Event('auth-change'));
 }

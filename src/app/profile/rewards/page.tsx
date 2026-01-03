@@ -6,8 +6,11 @@ import { WalletSection } from '@root/src/components/profile/rewards/wallet/walle
 function Page(): JSX.Element {
   return (
     <div className="flex max-w-125 flex-col gap-12">
-      <h1 className="text-[56px]/17 font-bold text-black">
-        My <span className="bg-pink-primary text-background">Rewards</span>
+      <h1 className="text-5xl font-bold text-black md:text-6xl">
+        My{' '}
+        <span className="bg-pink-primary text-background rounded-lg px-4 py-1">
+          Rewards
+        </span>
       </h1>
       <Suspense fallback={<RewardsSkeleton />}>
         <EarningsSection />

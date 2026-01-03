@@ -8,14 +8,17 @@ function Page(): JSX.Element {
   const { data: tokens, isLoading } = useTokens();
 
   return (
-    <div className="flex w-full flex-col gap-15">
+    <div className="flex w-full flex-col gap-16">
       <div className="relative bg-[url(/shared/create-quest.png)] bg-cover bg-center">
         <div className="bg-pink-primary/60 absolute inset-0"></div>
-        <h1 className="relative z-10 py-[110px] text-center text-[56px]/17 font-bold text-black">
-          Create a <span className="text-background bg-purple-dark">Quest</span>
+        <h1 className="relative z-10 py-24 text-center text-5xl font-bold text-black md:text-6xl">
+          Create a{' '}
+          <span className="bg-purple-dark text-background rounded-lg px-4 py-1">
+            Quest
+          </span>
         </h1>
       </div>
-      <div className="px-4 md:px-16">
+      <div className="px-4 pb-16 md:px-16">
         {isLoading ? (
           <div>Loading...</div>
         ) : (
