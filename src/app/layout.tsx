@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   description: 'Piggy Bank',
 };
 
+// eslint-disable-next-line camelcase
 const dmSans = DM_Sans({
   subsets: ['latin'],
   weight: ['400', '500', '700'],
