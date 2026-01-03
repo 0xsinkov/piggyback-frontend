@@ -40,7 +40,7 @@ function Page(): JSX.Element {
           </div>
         </div>
       </div>
-      <div className="bg-purple-light min-h-[10vh] w-full" />
+      <div className="bg-purple-light min-h-[20vh] w-full" />
     </>
   );
 }
