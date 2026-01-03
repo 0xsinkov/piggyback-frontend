@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { type JSX, type ReactNode } from 'react';
+// eslint-disable-next-line camelcase -- Next.js font import naming convention
 import { DM_Sans } from 'next/font/google';
 import { Providers } from '@src/components/providers/providers';
 import { Header } from '@root/src/components/layout/header/header';
@@ -10,7 +11,6 @@ export const metadata: Metadata = {
   description: 'Piggy Bank',
 };
 
-// eslint-disable-next-line camelcase
 const dmSans = DM_Sans({
   subsets: ['latin'],
   weight: ['400', '500', '700'],
